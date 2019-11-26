@@ -1,0 +1,25 @@
+/* import modules */
+@import 'modules/normalize';
+@import 'modules/_bootstrap-grid';
+@import 'modules/_font';
+
+@import 'blocks/header';
+@import 'blocks/burger';
+
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    background-color: #fdfaf3;
+}
+
+a {
+    text-decoration: none;
+}
