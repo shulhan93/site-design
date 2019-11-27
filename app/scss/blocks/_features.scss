@@ -1,0 +1,35 @@
+.features {
+    margin-top: 222px;
+    &-wrapper {
+        min-height: 481px;
+        display: flex;
+    }
+    &__item {
+        &:nth-child(2n) {
+            align-self: flex-end;
+        }
+        &-numb {
+            opacity: 0.26;
+            color: #fea052;
+            font-family: 'Playfair Display', serif;
+            font-size: 85px;
+            font-weight: 700;
+            letter-spacing: 0.28px;
+        }
+        &-title {
+            margin-top: 10px;
+            color: #1a292f;
+            font-size: 22px;
+            font-weight: 600;
+        }
+        &-descr {
+            margin-top: 14px;
+            color: #838383;
+            font-size: 16px;
+            font-weight: 300;
+            line-height: 25px;
+            letter-spacing: 0.57px;
+        }
+    }
+
+}

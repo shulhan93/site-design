@@ -5,12 +5,15 @@
 
 @import 'blocks/header';
 @import 'blocks/burger';
+@import 'blocks/features';
+@import 'blocks/title';
+@import 'blocks/portfolio';
 
 * {
     box-sizing: border-box;
 }
 
-h1 {
+h1,h2,h3 {
     margin: 0;
     padding: 0;
 }
