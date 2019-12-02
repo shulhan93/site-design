@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
   <head>
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
-    <title>Document</title><link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700|Raleway:300,400,500,700&display=swap&subset=cyrillic" rel="stylesheet">
+    <title>Дизайн интерьеров</title><link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700|Raleway:300,400,500,700&display=swap&subset=cyrillic" rel="stylesheet">
 <script src="https://kit.fontawesome.com/ef9d875dbd.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/main.css"/>
   </head>
@@ -56,34 +56,40 @@
     <section class="portfolio">
       <div class="container">
         <h2 class="title">Портфолио</h2>
-        <div class="portfolio-tab">
-          <ul>
-            <li><a href="#">Все проекты </a></li>
-            <li><a href="#">Дизайн интерьеров</a></li>
-            <li><a href="#">Отделочные работы</a></li>
+        <div class="portfolio-tabs">
+          <ul class="portfolio-tabs__caption">
+            <li class="active">Все проекты </li>
+            <li>Дизайн интерьеров</li>
+            <li>Отделочные работы</li>
           </ul>
-        </div>
-        <div class="slider">
-          <div class="slider-item"><img src="img/port-slider1.jpg" alt=""/>
-            <div class="slider-item__title">Дизайн интерьера гостиной </div>
-            <div class="slider-item__subtitle">Дизайн интерьера</div>
+          <div class="portfolio-tabs__content active">
+            <div class="slider">
+              <div class="slider-item"><img src="img/port-slider1.jpg" alt=""/>
+                <div class="slider-item__title">Дизайн интерьера гостиной </div>
+                <div class="slider-item__subtitle">Дизайн интерьера</div>
+              </div>
+              <div class="slider-item"><img src="img/port-slider2.jpg" alt=""/>
+                <div class="slider-item__title">Дизайн интерьера гостиной </div>
+                <div class="slider-item__subtitle">Дизайн интерьера</div>
+              </div>
+              <div class="slider-item"><img src="img/port-slider3.jpg" alt=""/>
+                <div class="slider-item__title">Дизайн интерьера гостиной </div>
+                <div class="slider-item__subtitle">Дизайн интерьера</div>
+              </div>
+              <div class="slider-item"><img src="img/port-slider4.jpg" alt=""/>
+                <div class="slider-item__title">Дизайн интерьера гостиной </div>
+                <div class="slider-item__subtitle">Дизайн интерьера</div>
+              </div>
+            </div>
           </div>
-          <div class="slider-item"><img src="img/port-slider2.jpg" alt=""/>
-            <div class="slider-item__title">Дизайн интерьера гостиной </div>
-            <div class="slider-item__subtitle">Дизайн интерьера</div>
-          </div>
-          <div class="slider-item"><img src="img/port-slider3.jpg" alt=""/>
-            <div class="slider-item__title">Дизайн интерьера гостиной </div>
-            <div class="slider-item__subtitle">Дизайн интерьера</div>
-          </div>
-          <div class="slider-item"><img src="img/port-slider4.jpg" alt=""/>
-            <div class="slider-item__title">Дизайн интерьера гостиной </div>
-            <div class="slider-item__subtitle">Дизайн интерьера</div>
+          <div class="portfolio-tabs__content">
+            <div class="lol">asdasdasdasd</div>
           </div>
         </div>
       </div>
     </section>
     <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/slick.js"></script>
     <script src="js/main.js"></script>
   </body>
 </html>

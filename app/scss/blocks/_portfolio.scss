@@ -89,4 +89,24 @@
             }
         }
     }
+    .slick-arrow {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        cursor: pointer;
+    }
+    .next {
+        left: 30px;
+        z-index: 100;
+
+    }
+    .prev {
+        right: 30px;
+    }
+    &-tabs__content {
+        display: none; /* по умолчанию прячем все блоки */
+      }
+    &-tabs__content.active {
+        display: block; /* по умолчанию показываем нужный блок */
+    }
 }

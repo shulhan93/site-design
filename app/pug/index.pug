@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-html(lang="en")
+html(lang="ru")
 	head
 		meta(charset="UTF-8")
 		meta(name="viewport", content="width=device-width, initial-scale=1.0")
 		meta(http-equiv="X-UA-Compatible", content="ie=edge")
-		title Document
+		title Дизайн интерьеров
 		<link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700|Raleway:300,400,500,700&display=swap&subset=cyrillic" rel="stylesheet">
 		<script src="https://kit.fontawesome.com/ef9d875dbd.js" crossorigin="anonymous"></script>
 		link(rel="stylesheet", href="css/main.css")
@@ -59,31 +59,32 @@ html(lang="en")
 		section.portfolio
 			.container
 				h2.title Портфолио
-				.portfolio-tab
-					ul
-						li
-							a(href="#") Все проекты 
-						li
-							a(href="#") Дизайн интерьеров
-						li
-							a(href="#") Отделочные работы
-				.slider
-					.slider-item
-						img(src="img/port-slider1.jpg", alt="")
-						.slider-item__title Дизайн интерьера гостиной 
-						.slider-item__subtitle Дизайн интерьера
-					.slider-item
-						img(src="img/port-slider2.jpg", alt="")
-						.slider-item__title Дизайн интерьера гостиной 
-						.slider-item__subtitle Дизайн интерьера
-					.slider-item
-						img(src="img/port-slider3.jpg", alt="")
-						.slider-item__title Дизайн интерьера гостиной 
-						.slider-item__subtitle Дизайн интерьера
-					.slider-item
-						img(src="img/port-slider4.jpg", alt="")
-						.slider-item__title Дизайн интерьера гостиной 
-						.slider-item__subtitle Дизайн интерьера
+				.portfolio-tabs
+					ul.portfolio-tabs__caption
+						li.active Все проекты 
+						li Дизайн интерьеров
+						li Отделочные работы
+					.portfolio-tabs__content.active
+						.slider
+							.slider-item
+								img(src="img/port-slider1.jpg", alt="")
+								.slider-item__title Дизайн интерьера гостиной 
+								.slider-item__subtitle Дизайн интерьера
+							.slider-item
+								img(src="img/port-slider2.jpg", alt="")
+								.slider-item__title Дизайн интерьера гостиной 
+								.slider-item__subtitle Дизайн интерьера
+							.slider-item
+								img(src="img/port-slider3.jpg", alt="")
+								.slider-item__title Дизайн интерьера гостиной 
+								.slider-item__subtitle Дизайн интерьера
+							.slider-item
+								img(src="img/port-slider4.jpg", alt="")
+								.slider-item__title Дизайн интерьера гостиной 
+								.slider-item__subtitle Дизайн интерьера
+					.portfolio-tabs__content
+						.lol asdasdasdasd
 		script(src="js/jquery-3.4.1.min.js")
+		script(src="js/slick.js")
 		script(src="js/main.js")
 
