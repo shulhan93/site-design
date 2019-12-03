@@ -9,9 +9,15 @@
 @import 'blocks/features';
 @import 'blocks/title';
 @import 'blocks/portfolio';
+@import 'blocks/services';
 
 * {
     box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
 }
 
 h1,h2,h3 {

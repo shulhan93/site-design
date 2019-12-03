@@ -1,0 +1,40 @@
+.services {
+    margin-top: 135px;
+    &-tabs {
+        margin-top: 65px;
+        &__caption {
+            font-size: 18px;
+            color: #7d7d7d;
+            li {
+                font-weight: 200;
+                margin-bottom: 83px;
+
+            }
+        }
+    }
+    &-item {
+        &__img {
+            margin-bottom: 60px;
+            img {
+                max-width: 100%;
+            }
+        }
+        &__title {
+            color: #00203a;
+            font-family: "Playfair Display";
+            font-size: 30px;
+            font-weight: 400;
+            letter-spacing: 0.54px;
+        }
+        &__descr {
+            color: #5e5e5e;
+            font-size: 18px;
+            font-weight: 300;
+            line-height: 30px;
+        }
+        .button {
+            align-self: flex-end;
+        }
+
+}
+}
