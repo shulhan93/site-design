@@ -1,16 +1,42 @@
 .services {
     margin-top: 135px;
-    &-tabs {
+    .tabs2 {
         margin-top: 65px;
         &__caption {
             font-size: 18px;
             color: #7d7d7d;
             li {
-                font-weight: 200;
-                margin-bottom: 83px;
+                font-weight: 300;
+                margin-bottom: 75px;
+                transition: padding-left 0.3s;
+                &:last-child {
+                    margin-bottom: 0;
+                }
+                &:hover {
+                    font-weight: 400;
+                    color: #00203a;
+                    cursor: pointer;
+                    padding-left: 20px;
+                }
+                &.active {
+                    font-weight: 400;
+                    color: #00203a;
+                    padding-left: 20px;
+                }
 
             }
+         
+         
         }
+        &__content {
+            display: none;
+            transition: opacity 1s;
+            &.active {
+                display: block;
+                transition: opacity 1s;
+            }
+        }
+        
     }
     &-item {
         &__img {
@@ -31,9 +57,23 @@
             font-size: 18px;
             font-weight: 300;
             line-height: 30px;
+            margin-bottom: 0;
+        }
+        &__count {
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 35px;
+            letter-spacing: 0.32px;
         }
         .button {
             align-self: flex-end;
+        }
+        .block-count {
+            height: 100%;
+            text-align: right;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
         }
 
 }
