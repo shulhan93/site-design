@@ -15,6 +15,7 @@
 @import 'blocks/button';
 @import 'blocks/video';
 @import 'blocks/stage';
+@import 'blocks/request';
 
 * {
     box-sizing: border-box;
@@ -33,6 +34,8 @@ h1,h2,h3 {
 body {
     font-family: 'Open Sans', sans-serif;
     background-color: #fdfaf3;
+    max-width: 1360px;
+    margin: 0 auto;
 }
 
 a {

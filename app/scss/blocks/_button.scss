@@ -7,6 +7,15 @@
     color: #00203a;
     background-color: #fff;
     font-size: 15px;
-    font-weight: 800;
+    font-weight: 700;
     letter-spacing: 2.25px;
+    outline: none;
+    &_form {
+        width: 100%;
+        border: 2px solid #fff;
+        border-radius: 5px;
+        box-shadow: 0 0 49px 19px rgba(0, 0, 1, 0.02);
+        background-color: #182c3d;
+        color: #fff;
+    }
 }
