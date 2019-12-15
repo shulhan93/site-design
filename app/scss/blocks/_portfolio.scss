@@ -95,10 +95,22 @@
     }
     .slick-arrow {
         position: absolute;
-        height: 100%;
         top: 50%;
         transform: translateY(-50%);
         cursor: pointer;
+    }
+
+    .slick-track {
+        display: flex;
+    }
+    .slick-slide {
+        width: 25% !important; 
+        overflow: hidden; 
+         flex-basis: 25%; 
+        transition: flex-basis 0.3s; 
+        &:hover {
+            flex-basis: 35%;
+        } 
     }
     .next {
         left: 30px;
@@ -109,12 +121,13 @@
         right: 30px;
     }
     .tabs__content {
-        
-        display: none;
+        display: block;    /* undo display:none          */
+        height: 0; 
+        overflow: hidden;
 
       }
     .tabs__content.active {
-        display: block;
+        height: auto;
     }
 
     .tabs__caption {

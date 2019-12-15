@@ -3,6 +3,7 @@
 @import 'modules/_bootstrap-grid';
 @import 'modules/_font';
 @import 'modules/slick';
+@import 'modules/slick-theme';
 @import 'modules/animate';
 @import 'modules/magnific-popup';
 
@@ -16,6 +17,7 @@
 @import 'blocks/video';
 @import 'blocks/stage';
 @import 'blocks/request';
+@import 'blocks/reviews';
 
 * {
     box-sizing: border-box;

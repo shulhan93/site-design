@@ -40,11 +40,9 @@
 }
 
 .slick-track {
-    
     position: relative;
     left: 0;
     top: 0;
-    display: flex;
     margin-left: auto;
     margin-right: auto;
 
@@ -63,10 +61,6 @@
     }
 }
 .slick-slide {
-    width: 25% !important;
-    overflow: hidden;
-    flex-basis: 25%;
-    transition: flex-basis 0.3s;
 
     float: left;
     height: 100%;
@@ -100,10 +94,12 @@
         height: auto;
         border: 1px solid transparent;
     }
-    &:hover {
-        flex-basis: 35%;
-    }
+ 
 }
+
+
 .slick-arrow.slick-hidden {
     display: none;
 }
+
+
